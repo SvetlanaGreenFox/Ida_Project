@@ -1,0 +1,343 @@
+/* ========== COMMON ========== */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Sans+Pro&display=swap') format('woff');
+}
+
+body {
+  background-color: #E5E5E5;
+  margin: 0;
+}
+
+/* ========== HEADER ========== */
+
+.page__title {
+/*   max-width: 1200px; */
+/*   display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35.2px;
+  color: rgba(63, 63, 63, 1);
+}
+
+.select-css { 
+display: block; 
+font-size: 12px;
+font-weight: 400; 
+color: #B4B4B4; 
+line-height: 15.08px; 
+padding: .6em 1.4em .5em .8em; 
+width: 121.38px;
+height: 36px;
+/* max-width: 100%;  */
+box-sizing: border-box; 
+margin: 0; 
+border: none;
+box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.1); 
+border-radius: 4px;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-color: rgba(255, 254, 251, 1); 
+background-image: url(../images/Vector.png), linear-gradient(to bottom, #FFFEFB 0%,#FFFEFB 100%); 
+background-repeat: no-repeat, repeat;
+background-position: right 15px top 50%, 0 0;
+background-size: .65em auto, 100%;  
+} 
+ .select-css::-ms-expand { display: none; } 
+.select-css:hover { 
+ border-color: rgba(0, 0, 0, 0.1);
+ box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+ .select-css:focus { 
+ border-color: rgba(0, 0, 0, 0.1); 
+ box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 0 0 3px -moz-mac-focusring; 
+ outline: none; 
+} 
+/*  .select-css option { font-weight:normal; } 
+ *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
+background-position: left .7em top 50%, 0 0; 
+padding: .6em .8em .5em 1.4em; 
+} */
+
+/* ========== MAIN ========== */
+.content__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 8px;
+  padding-top: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.working-form {
+  display: flex;
+  
+  background-color: rgba(255, 254, 251, 1);
+  box-shadow: 0 6px 10px 0px rgba(0, 0, 0, 0.02); 
+  border-radius: 4px;
+}
+
+.working-form:hover {
+  box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.04);
+  border-color: #FFFEFB;
+}
+
+.form__rows {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  padding: 24px;
+}
+
+.form__row {
+  margin-top: 16px;
+}
+
+.form__row:first-child {
+  margin-top: 0px;
+}
+
+.form__row:last-child {
+  margin-top: 24px;
+}
+
+.data-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  margin-left: 16px;
+/*   margin-right: auto; */
+}
+
+.product__card {
+  margin-bottom: 16px;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+}
+
+.body__title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(63, 63, 63, 1); 
+  line-height: 25.14px;
+  
+  margin-bottom: 16px;
+}
+
+.product-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(63, 63, 63, 1); 
+  line-height: 20.11px;
+  
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.shop__body {
+  padding: 16px 16px 16px 24px;
+  
+  background-color: rgba(255, 254, 251, 1);
+}
+
+.product__footer {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(63, 63, 63, 1); 
+  line-height: 30.17px;
+}
+
+.parametr {
+  font-size: 10px;
+  font-weight: 400; 
+  color: rgba(73, 72, 94, 1); 
+  line-height: 12.57px;
+  
+  margin-bottom: 4px;
+}
+
+.field {
+  display: block;
+  max-height: 36px;
+  border: none;
+  background-color: rgba(255, 254, 251, 1);
+  
+  box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.1); 
+  border-radius: 4px;
+  
+  padding: 16px 10px;
+  cursor: text;
+  
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(180, 180, 180, 1); 
+  line-height: 15.08px;
+}
+
+.field:hover { 
+ border-color: rgba(0, 0, 0, 0.1);
+ box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+ .field:focus { 
+ border: 1px solid rgba(255, 132, 132, 1); 
+ outline: none;
+} 
+
+.hint {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.field:focus + .hint {
+  position: static;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 8px;
+  font-weight: 400; 
+  color: rgba(255, 132, 132, 1); 
+  line-height: 10.06px;
+  
+  margin-top: 4px;
+}
+
+.button {
+  width: 100%;
+  height: 36px;
+  
+  background-color: rgba(238, 238, 238, 1);
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(180, 180, 180, 1);
+  line-height: 14.52px;
+}
+
+.button:focus {
+  background-color: rgba(123, 174, 115, 1);
+  
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  line-height: 14.52px;
+}
+
+.textarea {
+	overflow: auto;
+
+	resize: none;
+	height: 108px;
+}
+
+/* ========== DESKTOP ========== */
+
+@media (min-width: 1200px) {
+  .page__title,
+  .content__wrapper {
+    max-width: 1400px;
+  }
+  
+  .working-form {
+    width: 332px;
+    height: 440px;
+  }
+  
+  .products__wrapper {
+    max-width: 1028px;
+  }
+  
+  .product__card {
+    width: 30%;
+  }
+}
+
+/* ========== TABLET ========== */
+
+@media (min-width: 641px) and (max-width: 1199px) {
+  .page__title,
+  .content__wrapper {
+    max-width: 1200px;
+  }
+  
+  .working-form {
+    width: 332px;
+    height: 440px;
+  }
+  
+  .products__wrapper {
+    max-width: 700px;
+  }
+  
+  .product__card {
+  width: calc(95%/2);
+  }
+}
+  
