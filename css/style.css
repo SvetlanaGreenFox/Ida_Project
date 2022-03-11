@@ -28,10 +28,6 @@ body {
 /* ========== HEADER ========== */
 
 .page__title {
-/*   max-width: 1200px; */
-/*   display: flex;
-  justify-content: space-between;
-  align-items: center; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 32px;
@@ -62,7 +58,6 @@ line-height: 15.08px;
 padding: .6em 1.4em .5em .8em; 
 width: 121.38px;
 height: 36px;
-/* max-width: 100%;  */
 box-sizing: border-box; 
 margin: 0; 
 border: none;
@@ -89,11 +84,6 @@ background-size: .65em auto, 100%;
  box-shadow: 0 0 0 3px -moz-mac-focusring; 
  outline: none; 
 } 
-/*  .select-css option { font-weight:normal; } 
- *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
-background-position: left .7em top 50%, 0 0; 
-padding: .6em .8em .5em 1.4em; 
-} */
 
 /* ========== MAIN ========== */
 .content__wrapper {
@@ -153,7 +143,6 @@ padding: .6em .8em .5em 1.4em;
   justify-content: space-between;
   
   margin-left: 16px;
-/*   margin-right: auto; */
 }
 
 .product__card {
