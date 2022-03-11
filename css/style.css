@@ -303,10 +303,9 @@ background-size: .65em auto, 100%;
 }
 
 .textarea {
-	overflow: auto;
-
-	resize: none;
-	height: 108px;
+  overflow: auto;
+  resize: none;
+  height: 108px;
 }
 
 .popup__close {
